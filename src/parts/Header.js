@@ -15,25 +15,25 @@ export default function Header(props) {
           <BrandIcon />
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav ml-auto">
-              <li className={`nav-item${getNavLinkClass("/")}`}>
+              <li className={`nav-item ${getNavLinkClass("/")}`}>
                 <Button className="nav-link" type="link" href="">
                   Home
                 </Button>
               </li>
 
-              <li className={`nav-item${getNavLinkClass("/about-us")}`}>
+              <li className={`nav-item ${getNavLinkClass("/about-us")}`}>
                 <Button className="nav-link" type="link" href="/about-us">
                   About Us
                 </Button>
               </li>
 
-              <li className={`nav-item${getNavLinkClass("/stories")}`}>
+              <li className={`nav-item ${getNavLinkClass("/stories")}`}>
                 <Button className="nav-link" type="link" href="/stories">
                   Stories
                 </Button>
               </li>
 
-              <li className={`nav-item${getNavLinkClass("/sign-in")}`}>
+              <li className={`nav-item ${getNavLinkClass("/sign-in")}`}>
                 <Button className="nav-link" type="link" href="/sign-in">
                   Sign In
                 </Button>
