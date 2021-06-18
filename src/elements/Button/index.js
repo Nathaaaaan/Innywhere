@@ -45,8 +45,7 @@ export default function Button(props) {
       );
     } else {
       return (
-        <Link
-          to={props.href}
+        <Link to={props.href || '/'}
           className={className.join(" ")}
           style={props.style}
           onClick={onClick}

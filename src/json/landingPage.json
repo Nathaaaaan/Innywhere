@@ -1,8 +1,8 @@
 {
   "hero": {
-    "members": 3232,
-    "cities": 882,
-    "events": 2123
+    "travelers": 3232,
+    "treasures": 885,
+    "cities": 2123
   },
   "mostPicked": [
     {
@@ -113,7 +113,7 @@
           "imageUrl": "/images/image-category-6.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": false
+          "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
@@ -129,7 +129,7 @@
           "imageUrl": "/images/image-category-8.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": true
+          "isPopular": false
         }
       ]
     },
