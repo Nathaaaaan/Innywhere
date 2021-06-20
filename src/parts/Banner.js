@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 import BannerHero_ from "assets/images/banner-hero.jpg";
 // import Star from "elements/Star";
@@ -6,15 +7,16 @@ import Button from "elements/Button";
 
 export default function Banner() {
   return (
-    <section className="container">
-      <div className="row justify-content-center">
-        <div className="banner-hero">
-          <img src={BannerHero_} alt="" />
-          {/* <img src={data.imageUrl} alt="" style={{ height: 260, width: 1110 }} /> */}
-        </div>
+    <Fade>
+      <section className="container">
+        <div className="row justify-content-center">
+          <div className="banner-hero">
+            <img src={BannerHero_} alt="" />
+            {/* <img src={data.imageUrl} alt="" style={{ height: 260, width: 1110 }} /> */}
           </div>
-         
-    </section>
+        </div>
+      </section>
+    </Fade>
   );
 
   //   <section className="container">
