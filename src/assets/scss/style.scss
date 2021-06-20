@@ -205,6 +205,21 @@ section {
   }
 }
 
+.banner-hero,
+.banner-hero img {
+  width: 1110px;
+  height: 260px;
+}
+
+footer {
+  border-top: 1px solid $gray-200;
+  padding-top: 20px;
+  .copyrights {
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: $gray-500;
+  }
+}
 // ? BACKUP
 // header {
 //   border-bottom: 1px solid $gray-200;
