@@ -3,11 +3,10 @@ import Fade from "react-reveal/Fade";
 
 import BannerHero_ from "assets/images/banner-hero.jpg";
 // import Star from "elements/Star";
-import Button from "elements/Button";
 
 export default function Banner() {
   return (
-    <Fade>
+    <Fade delay={300}>
       <section className="container">
         <div className="row justify-content-center">
           <div className="banner-hero">
