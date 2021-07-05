@@ -10,6 +10,7 @@ export default function Banner() {
       <section className="container">
         <div className="row justify-content-center">
           <div className="banner-hero">
+            {/* <img src={`${process.env.REACT_APP_HOST}/${data.imageUrl}`} alt="" /> */}
             <img src={BannerHero_} alt="" />
             {/* <img src={data.imageUrl} alt="" style={{ height: 260, width: 1110 }} /> */}
           </div>
